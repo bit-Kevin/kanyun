@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: kanyun_mangement
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/kanyun?rewriteBatchedStatements=true&useSSL=true
+        username: root
+        password: 232517
+
+
+mybatis:
+    mapper-locations: classpaths:mapper/**.xml #指定存放sql语句的mapper.xml的路径
+    type-aliases-package: com.**.*Model #配置别名
+server:
+    port: 10501
