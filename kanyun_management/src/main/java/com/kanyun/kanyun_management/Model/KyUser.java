@@ -1,14 +1,15 @@
-package com.kanyun.kanyun_management.userLogin.LoginModel;
-
+package com.kanyun.kanyun_management.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.util.Date;
+
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
 @ToString
 public class KyUser {
 
@@ -19,8 +20,8 @@ public class KyUser {
   private String userEmail;
   private String userProfilePhoto;
   private java.sql.Timestamp userRegistrationTime;
-  private java.sql.Date userBirthday;
-  private long userAge;
+  private Date userBirthday;
+  private long userRole;
   private String userTelephoneNumber;
   private String userNickname;
   private long xxx1;
@@ -28,6 +29,6 @@ public class KyUser {
   private String xxx3;
   private long delete;
   private long version;
-
+  private long userState;
 
 }

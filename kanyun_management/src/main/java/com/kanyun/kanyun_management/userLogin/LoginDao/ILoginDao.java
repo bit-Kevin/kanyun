@@ -1,6 +1,7 @@
 package com.kanyun.kanyun_management.userLogin.LoginDao;
 
-import com.kanyun.kanyun_management.userLogin.LoginModel.KyUser;
+
+import com.kanyun.kanyun_management.Model.KyUser;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
